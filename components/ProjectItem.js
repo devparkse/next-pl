@@ -2,8 +2,8 @@ import React from "react";
 import Image from "next/legacy/image";
 
 const ProjectItem = ({ data }) => {
-  console.log("============");
-  console.log(data);
+  // console.log("============");
+  // console.log(data);
   const title = data.properties.Name.title[0].plain_text;
   const description = data.properties.Description.rich_text[0].plain_text;
   const imgUrl = data.cover.external?.url || data.cover.file.url;
