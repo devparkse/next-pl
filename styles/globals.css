@@ -33,3 +33,13 @@ p {
 .btn-project {
   @apply bg-gray-100 p-6 rounded-lg dark:bg-slate-800;
 }
+
+.project-card {
+  @apply xl:w-1/4 md:w-1/2 p-5
+  transition duration-300 transform
+  hover:scale-105
+  hover:shadow-lg
+  dark:hover:shadow-gray-400/40
+  hover:text-blue-600
+  text-slate-900 dark:text-slate-500;
+}

@@ -27,7 +27,7 @@ export default function Home() {
               능히 사람은 찾아다녀도, 칼이다.
             </p>
             <div className="flex justify-center">
-              <Link href="/portfolio">
+              <Link legacyBehavior href="/portfolio">
                 <button className="btn-project-index">Portfolio</button>
               </Link>
             </div>
