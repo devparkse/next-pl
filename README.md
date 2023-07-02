@@ -1,4 +1,5 @@
-# Next.js 를 이용한 Notion 데이터 베이스 연동 Study
+# :pencil: Study
+## Next.js 를 이용한 Notion 데이터 베이스 연동 Study
 
 ## 참조 리소스
 
